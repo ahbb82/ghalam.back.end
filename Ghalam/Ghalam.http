@@ -1,0 +1,6 @@
+@Ghalam_HostAddress = http://localhost:5298
+
+GET {{Ghalam_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,198 @@
+[
+  {
+    "ContainingType": "Ghalam.Controllers.AdminController",
+    "Method": "DeleteStory",
+    "RelativePath": "api/Admin/DeleteStory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "story",
+        "Type": "Ghalam.dto.DeleteStoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ghalam.Controllers.AdminController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Admin/DeleteUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "Ghalam.dto.DeleteUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ghalam.Controllers.AdminController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Admin/GetUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ghalam.Controllers.AuthenticationController",
+    "Method": "ReaderLogin",
+    "RelativePath": "api/Authentication/ReaderLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Ghalam.dto.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ghalam.Controllers.AuthenticationController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/Authentication/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "register",
+        "Type": "Ghalam.dto.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ghalam.Controllers.AuthenticationController",
+    "Method": "WriterLogin",
+    "RelativePath": "api/Authentication/WriterLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Ghalam.dto.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ghalam.Controllers.ReaderController",
+    "Method": "DisLiking",
+    "RelativePath": "api/story/DisLiking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "liking",
+        "Type": "Ghalam.dto.LikingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ghalam.Controllers.ReaderController",
+    "Method": "GetStories",
+    "RelativePath": "api/story/GetStory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ghalam.Controllers.ReaderController",
+    "Method": "IsLiked",
+    "RelativePath": "api/story/IsLiked",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IL",
+        "Type": "Ghalam.dto.LikingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ghalam.Controllers.ReaderController",
+    "Method": "LikeCounter",
+    "RelativePath": "api/story/LikeCounter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "Ghalam.dto.GetWriterStorieDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ghalam.Controllers.ReaderController",
+    "Method": "Liking",
+    "RelativePath": "api/story/Liking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "liking",
+        "Type": "Ghalam.dto.LikingDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ghalam.Controllers.WriterController",
+    "Method": "AddStory",
+    "RelativePath": "api/Writer/AddStory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "story",
+        "Type": "Ghalam.dto.AddStoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ghalam.Controllers.WriterController",
+    "Method": "GetWriterStories",
+    "RelativePath": "api/Writer/GetWriterStories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Writer",
+        "Type": "Ghalam.dto.GetWriterStorieDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
